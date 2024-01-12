@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container-fluid {
+    height: 70vh;
+    background-image: url("/public/Sunset-at-Angkor-Wat-Siem-Reap-Cambodia.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.content {
+    color: white;
+    font-size: 40px;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #28a745; 
+}
